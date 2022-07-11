@@ -13,6 +13,8 @@
 		A84E0133287C640F009EC52A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84E0131287C640F009EC52A /* Main.storyboard */; };
 		A84E0135287C6411009EC52A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84E0134287C6411009EC52A /* Assets.xcassets */; };
 		A84E0138287C6411009EC52A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84E0136287C6411009EC52A /* LaunchScreen.storyboard */; };
+		A84E0140287C68C9009EC52A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E013F287C68C9009EC52A /* SecondViewController.swift */; };
+		A84E0142287C68DA009EC52A /* ThierdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E0141287C68DA009EC52A /* ThierdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A84E0134287C6411009EC52A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A84E0137287C6411009EC52A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A84E0139287C6411009EC52A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84E013F287C68C9009EC52A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A84E0141287C68DA009EC52A /* ThierdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThierdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A84E0134287C6411009EC52A /* Assets.xcassets */,
 				A84E0136287C6411009EC52A /* LaunchScreen.storyboard */,
 				A84E0139287C6411009EC52A /* Info.plist */,
+				A84E013F287C68C9009EC52A /* SecondViewController.swift */,
+				A84E0141287C68DA009EC52A /* ThierdViewController.swift */,
 			);
 			path = NotificationCenter;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84E0140287C68C9009EC52A /* SecondViewController.swift in Sources */,
 				A84E0130287C640F009EC52A /* ViewController.swift in Sources */,
 				A84E012C287C640F009EC52A /* AppDelegate.swift in Sources */,
 				A84E012E287C640F009EC52A /* SceneDelegate.swift in Sources */,
+				A84E0142287C68DA009EC52A /* ThierdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

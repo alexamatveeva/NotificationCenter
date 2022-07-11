@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        NotificationCenter.default.post(name: Notification.Name("colorChanged"), object: nil)
+        view.backgroundColor = .red
+    }
+    
 }
 
